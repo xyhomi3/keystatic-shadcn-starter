@@ -2,7 +2,10 @@ import { collection, config, fields } from '@keystatic/core';
 
 export default config({
   storage: {
-    kind: 'local',
+    kind: 'cloud',
+  },
+  cloud: {
+    project: 'ouest-labs/keystatic-shadcn',
   },
   collections: {
     posts: collection({

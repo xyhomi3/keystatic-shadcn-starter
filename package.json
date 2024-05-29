@@ -1,5 +1,6 @@
 {
   "name": "keystatic-shadcn-starter",
+  "description": "Keystatic starter template with Shadcn/ui",
   "version": "0.0.0",
   "license": "MIT",
   "contributors": [
